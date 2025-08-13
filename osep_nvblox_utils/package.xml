@@ -1,0 +1,13 @@
+<package format="3">
+  <name>osep_nvblox_utils</name>
+  <version>0.0.1</version>
+  <description>Utilities and launch files for OSEP NVBlox integration.</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <export>
+  </export>
+</package>
