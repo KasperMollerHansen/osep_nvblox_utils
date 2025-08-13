@@ -40,14 +40,14 @@ def generate_launch_description() -> LaunchDescription:
 
     actions.append(
         lu.include(
-            'sim_nvblox',
+            'osep_nvblox_boot',
             'launch/visualization/foxglove_bridge.launch.py',
             launch_arguments={'use_foxglove_whitelist': args.use_foxglove_whitelist},
             condition=IfCondition(args.run_foxglove)))
 
     actions.append(
         lu.include(
-            'sim_nvblox',
+            'osep_nvblox_boot',
             'launch/visualization/rviz.launch.py',
             launch_arguments={
                 'mode': args.mode,
