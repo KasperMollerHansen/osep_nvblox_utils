@@ -66,7 +66,7 @@ def generate_launch_description() -> LaunchDescription:
     # Nvblox
     actions.append(
         lu.include(
-            "sim_nvblox",
+            "osep_nvblox_boot",
             "launch/perception/nvblox.launch.py",
             launch_arguments={
                 "container_name": NVBLOX_CONTAINER_NAME,
@@ -81,7 +81,7 @@ def generate_launch_description() -> LaunchDescription:
     # Visualization
     actions.append(
         lu.include(
-            "sim_nvblox",
+            "osep_nvblox_boot",
             "launch/visualization/visualization.launch.py",
             launch_arguments={
                 "mode": args.mode,
