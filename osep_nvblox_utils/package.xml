@@ -7,6 +7,7 @@
 
  <buildtool_depend>ament_cmake</buildtool_depend>
   <build_depend>isaac_ros_common</build_depend>
+  <depend>isaac_ros_nvblox</depend>
 
   <!-- Utils -->
   <exec_depend>isaac_ros_launch_utils</exec_depend>
