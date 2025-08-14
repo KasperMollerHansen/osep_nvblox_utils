@@ -9,6 +9,7 @@
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>isaac_ros_nvblox</exec_depend>
+  <exec_depend>osep_nvblox_boot</exec_depend>
   <export>
   </export>
 </package>
