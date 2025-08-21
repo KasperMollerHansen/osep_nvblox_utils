@@ -92,8 +92,8 @@
 
       # 2D ESDF
       esdf_slice_height: 0.0
-      esdf_slice_min_height: -4.0
-      esdf_slice_max_height: 4.0
+      esdf_slice_min_height: -5.0
+      esdf_slice_max_height: 5.0
       
       esdf_integrator_min_weight: *voxel_threshold
       esdf_integrator_max_site_distance_vox: 10.0
